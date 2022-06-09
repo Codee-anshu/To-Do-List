@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(./Assets/bg-img.jpg) no-repeat fixed;
+}
+
+/* ------------Header Styles------------ */
+.header{
+    text-align: center;
+    padding: 20px;
+}
+#h1{
+    color: gray;
+    font-weight: bolder;
+    padding-bottom: 20PX;
+}
+
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#first_input{
+    
+    background-color: rgba(17, 16, 16, 0.506);
+    padding: 10px;
+    padding-left: 20px;
+    width: 35%;
+    font-size: 20px;
+    border-radius: 20px;
+    color: lightslategray;
+    margin-right: 1rem;
+}
+#second_input{
+    color: transparent;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(205, 103, 172), rgb(136, 3, 136), rgb(55, 207, 234));
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    cursor: pointer;
+    transition: 0.4s;
+}
+#second_input:hover{
+    opacity: 0.8;
+}
+#second_input:active{
+    opacity: 0.6;
+}
+
+
+/* ----------------Body Styles------------ */
+#body{
+    text-align: center;
+    background: none;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.cross {
+    color: lightslategray;
+    border : 1px solid lightslategray!important;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+.cross:hover{
+    color: whitesmoke;
+}
+.modalview {
+   
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+#task{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: lightslategray;
+}
+.text{
+    color: lightslategray;
+}
+.PDtask{
+    color: lightslategray;
+    font-size: 1.5rem;
+}
+.taskBox{
+    background-color: black
+}
+
+
+
